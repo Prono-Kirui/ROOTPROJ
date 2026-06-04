@@ -1,0 +1,225 @@
+#pragma warning disable AA0005, AA0008, AA0018, AA0021, AA0072, AA0137, AA0201, AA0204, AA0206, AA0218, AA0228, AL0254, AL0424, AS0011, AW0006 // ForNAV settings
+Page 50435 "Product Details Master"
+{
+    // CardPageID = "Product Card";
+    DeleteAllowed = false;
+    Editable = false;
+    InsertAllowed = false;
+    ModifyAllowed = false;
+    PageType = List;
+    SourceTable = Vendor;
+    SourceTableView = where("Creditor Type" = filter("FOSA Account"));
+
+    layout
+    {
+        area(content)
+        {
+            repeater(Group)
+            {
+                field("No."; Rec."No.")
+                {
+                    ApplicationArea = Basic;
+                }
+                field(Name; Rec.Name)
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Account Type"; Rec."Account Type")
+                {
+                    ApplicationArea = Basic;
+                }
+                field(Balance; Rec.Balance)
+                {
+                    ApplicationArea = Basic;
+                    StyleExpr = CoveragePercentStyle;
+                }
+
+                field("ATM No."; Rec."ATM No.")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'ATM No.';
+                }
+                field("BOSA Account No"; Rec."BOSA Account No")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Member No.';
+                }
+                field("ID No."; Rec."ID No.")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Employer Code"; Rec."Employer Code")
+                {
+                    ApplicationArea = Basic;
+                }
+                field("Mobile Phone No"; Rec."Mobile Phone No")
+                {
+                    ApplicationArea = Basic;
+                }
+
+                field("Global Dimension 1 Code"; Rec."Global Dimension 1 Code")
+                {
+                    ApplicationArea = Basic;
+                    Visible = false;
+                }
+                field(Status; Rec.Status)
+                {
+                    ApplicationArea = Basic;
+                }
+                field(Blocked; Rec.Blocked)
+                {
+                    ApplicationArea = Basic;
+                }
+            }
+        }
+        area(factboxes)
+        {
+
+        }
+    }
+
+    actions
+    {
+        area(navigation)
+        {
+            group(Account)
+            {
+                Caption = 'Account';
+                action("Ledger E&ntries")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Ledger E&ntries';
+                    Image = VendorLedger;
+                    RunObject = Page "Vendor Ledger Entries";
+                    RunPageLink = "Vendor No." = field("No.");
+                    RunPageView = sorting("Vendor No.");
+                    ShortCutKey = 'Ctrl+F7';
+                }
+                action("Co&mments")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Co&mments';
+                    Image = ViewComments;
+                    RunObject = Page "Comment Sheet";
+                    RunPageLink = "Table Name" = const(Vendor),
+                                  "No." = field("No.");
+                }
+                action(Dimensions)
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Dimensions';
+                    Image = Dimensions;
+                    RunObject = Page "Default Dimensions";
+                    RunPageLink = "Table ID" = const(23),
+                                  "No." = field("No.");
+                    ShortCutKey = 'Shift+Ctrl+D';
+                }
+                separator(Action1102755228)
+                {
+                }
+                separator(Action1102755226)
+                {
+                }
+                separator(Action1102755225)
+                {
+                }
+                action("Go to BOSA Account")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Go to BOSA Account';
+                    Image = Planning;
+                    Promoted = true;
+                    PromotedCategory = Process;
+                    RunObject = Page "Member Account Card";
+                    RunPageLink = "No." = field("BOSA Account No");
+                }
+                separator(Action1102755222)
+                {
+                }
+            }
+            group(ActionGroup1102755220)
+            {
+
+                separator(Action1102755217)
+                {
+                }
+                action("Page Vendor Statement")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Statement';
+                    Image = "Report";
+                    Promoted = true;
+                    PromotedCategory = "Report";
+
+                    trigger OnAction()
+                    begin
+
+                        Vend.Reset;
+                        Vend.SetRange(Vend."No.", Rec."No.");
+                        if Vend.Find('-') then
+                            Report.Run(50890, true, false, Vend)
+                    end;
+                }
+                action("Page Vendor Statistics")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Statistics';
+                    Image = Statistics;
+                    Promoted = true;
+                    PromotedCategory = "Report";
+                    RunObject = Page "Vendor Statistics";
+                    RunPageLink = "No." = field("No."),
+                                  "Global Dimension 1 Filter" = field("Global Dimension 1 Filter"),
+                                  "Global Dimension 2 Filter" = field("Global Dimension 2 Filter");
+                    ShortCutKey = 'F7';
+                }
+                action("Loan Statement")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'FOSA Loan Statement';
+                    Image = "Report";
+                    Promoted = true;
+                    PromotedCategory = "Report";
+                    PromotedOnly = true;
+
+                    trigger OnAction()
+                    begin
+                        Cust.Reset;
+                        Cust.SetRange(Cust."No.", Rec."No.");
+                        if Cust.Find('-') then
+                            Report.Run(50531, true, false, Cust);
+                    end;
+                }
+            }
+        }
+    }
+
+    trigger OnAfterGetRecord()
+    begin
+        SetStyles;
+    end;
+
+    trigger OnOpenPage()
+    begin
+        //SETRANGE("Global Dimension 1 Code",'FOSA');
+    end;
+
+    var
+        Cust: Record Customer;
+        Vend: Record Vendor;
+        CoveragePercentStyle: Text;
+        MinimumBalance: Decimal;
+
+    local procedure SetStyles()
+    begin
+        MinimumBalance := 1000;
+        if Rec.Balance = 0 then
+            CoveragePercentStyle := 'Strong'
+        else
+            if Rec.Balance < MinimumBalance then
+                CoveragePercentStyle := 'Unfavorable'
+            else
+                CoveragePercentStyle := 'Favorable';
+    end;
+}
+

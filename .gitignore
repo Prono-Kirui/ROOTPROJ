@@ -1,0 +1,8 @@
+*.app
+.vscode/*.json
+.vscode/.altemplates
+.vscode/.alcache
+.snapshots
+.alcache
+launch.json
+.7z

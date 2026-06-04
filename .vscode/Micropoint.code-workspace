@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Finance Management"
+		},
+		{
+			"path": "../../Human Resource Management"
+		},
+		{
+			"path": "../../Grants Management"
+		},
+		{
+			"path": "../../Procurement Management"
+		},
+		{
+			"path": "../../Sacco Management"
+		}
+		,
+		{
+			"path": "../../FOSA Management"
+		}
+	],
+	"settings": {
+		"al.showHomeAtStartup": "WhenUpdated"
+	}
+}

@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description>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
+</Description>
+  <Author>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
+</Author>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+      </Body>
+      <Width>6.5in</Width>
+      <Page></Page>
+    </ReportSection>
+  </ReportSections>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ReportForNavId_4645">
+          <DataField>ReportForNavId_4645</DataField>
+        </Field>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="COMPANYNAME">
+          <DataField>COMPANYNAME</DataField>
+        </Field>
+        <Field Name="Company_Name">
+          <DataField>Company_Name</DataField>
+        </Field>
+        <Field Name="Company_Address">
+          <DataField>Company_Address</DataField>
+        </Field>
+        <Field Name="Company_Address_2">
+          <DataField>Company_Address_2</DataField>
+        </Field>
+        <Field Name="Company_Phone_No">
+          <DataField>Company_Phone_No</DataField>
+        </Field>
+        <Field Name="Company_Fax_No">
+          <DataField>Company_Fax_No</DataField>
+        </Field>
+        <Field Name="Company_Picture">
+          <DataField>Company_Picture</DataField>
+        </Field>
+        <Field Name="Company_Email">
+          <DataField>Company_Email</DataField>
+        </Field>
+        <Field Name="CurrReport_PAGENO">
+          <DataField>CurrReport_PAGENO</DataField>
+        </Field>
+        <Field Name="USERID">
+          <DataField>USERID</DataField>
+        </Field>
+        <Field Name="LoanNo_LoanPortfolioProvision">
+          <DataField>LoanNo_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="MemberNo_LoanPortfolioProvision">
+          <DataField>MemberNo_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="MemberName_LoanPortfolioProvision">
+          <DataField>MemberName_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Performing_LoanPortfolioProvision">
+          <DataField>Performing_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Performing_LoanPortfolioProvisionFormat">
+          <DataField>Performing_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="Watch_LoanPortfolioProvision">
+          <DataField>Watch_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Watch_LoanPortfolioProvisionFormat">
+          <DataField>Watch_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="Substandard_LoanPortfolioProvision">
+          <DataField>Substandard_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Substandard_LoanPortfolioProvisionFormat">
+          <DataField>Substandard_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="Doubtful_LoanPortfolioProvision">
+          <DataField>Doubtful_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Doubtful_LoanPortfolioProvisionFormat">
+          <DataField>Doubtful_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="Loss_LoanPortfolioProvision">
+          <DataField>Loss_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Loss_LoanPortfolioProvisionFormat">
+          <DataField>Loss_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="OutstandingBalance_LoanPortfolioProvision">
+          <DataField>OutstandingBalance_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="OutstandingBalance_LoanPortfolioProvisionFormat">
+          <DataField>OutstandingBalance_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="ArrearsAmount_LoanPortfolioProvision">
+          <DataField>ArrearsAmount_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="ArrearsAmount_LoanPortfolioProvisionFormat">
+          <DataField>ArrearsAmount_LoanPortfolioProvisionFormat</DataField>
+        </Field>
+        <Field Name="ArrearsDays_LoanPortfolioProvision">
+          <DataField>ArrearsDays_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Classification_LoanPortfolioProvision">
+          <DataField>Classification_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="Rescheduled_LoanPortfolioProvision">
+          <DataField>Rescheduled_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="ReportDate_LoanPortfolioProvision">
+          <DataField>ReportDate_LoanPortfolioProvision</DataField>
+        </Field>
+        <Field Name="VarPerformingCount">
+          <DataField>VarPerformingCount</DataField>
+        </Field>
+        <Field Name="VarPerformingTotal">
+          <DataField>VarPerformingTotal</DataField>
+        </Field>
+        <Field Name="VarPerformingTotalFormat">
+          <DataField>VarPerformingTotalFormat</DataField>
+        </Field>
+        <Field Name="VarPerformingReqProvision">
+          <DataField>VarPerformingReqProvision</DataField>
+        </Field>
+        <Field Name="VarPerformingReqProvisionFormat">
+          <DataField>VarPerformingReqProvisionFormat</DataField>
+        </Field>
+        <Field Name="VarPerformimgProvisionPercentage">
+          <DataField>VarPerformimgProvisionPercentage</DataField>
+        </Field>
+        <Field Name="VarPerformimgProvisionPercentageFormat">
+          <DataField>VarPerformimgProvisionPercentageFormat</DataField>
+        </Field>
+        <Field Name="VarWatchCount">
+          <DataField>VarWatchCount</DataField>
+        </Field>
+        <Field Name="VarWatchTotal">
+          <DataField>VarWatchTotal</DataField>
+        </Field>
+        <Field Name="VarWatchTotalFormat">
+          <DataField>VarWatchTotalFormat</DataField>
+        </Field>
+        <Field Name="VarWatchReqProvision">
+          <DataField>VarWatchReqProvision</DataField>
+        </Field>
+        <Field Name="VarWatchReqProvisionFormat">
+          <DataField>VarWatchReqProvisionFormat</DataField>
+        </Field>
+        <Field Name="VarWatchProvisionPercentage">
+          <DataField>VarWatchProvisionPercentage</DataField>
+        </Field>
+        <Field Name="VarWatchProvisionPercentageFormat">
+          <DataField>VarWatchProvisionPercentageFormat</DataField>
+        </Field>
+        <Field Name="VarSubstandardCount">
+          <DataField>VarSubstandardCount</DataField>
+        </Field>
+        <Field Name="VarSubstandardTotal">
+          <DataField>VarSubstandardTotal</DataField>
+        </Field>
+        <Field Name="VarSubstandardTotalFormat">
+          <DataField>VarSubstandardTotalFormat</DataField>
+        </Field>
+        <Field Name="VarSubstandardProvisionPercentage">
+          <DataField>VarSubstandardProvisionPercentage</DataField>
+        </Field>
+        <Field Name="VarSubstandardProvisionPercentageFormat">
+          <DataField>VarSubstandardProvisionPercentageFormat</DataField>
+        </Field>
+        <Field Name="VarDoubtfulCount">
+          <DataField>VarDoubtfulCount</DataField>
+        </Field>
+        <Field Name="VarDoubtfulTotal">
+          <DataField>VarDoubtfulTotal</DataField>
+        </Field>
+        <Field Name="VarDoubtfulTotalFormat">
+          <DataField>VarDoubtfulTotalFormat</DataField>
+        </Field>
+        <Field Name="VarDoubtfulReqProvision">
+          <DataField>VarDoubtfulReqProvision</DataField>
+        </Field>
+        <Field Name="VarDoubtfulReqProvisionFormat">
+          <DataField>VarDoubtfulReqProvisionFormat</DataField>
+        </Field>
+        <Field Name="VarDoubtfulProvisionPercentage">
+          <DataField>VarDoubtfulProvisionPercentage</DataField>
+        </Field>
+        <Field Name="VarDoubtfulProvisionPercentageFormat">
+          <DataField>VarDoubtfulProvisionPercentageFormat</DataField>
+        </Field>
+        <Field Name="VarLossCount">
+          <DataField>VarLossCount</DataField>
+        </Field>
+        <Field Name="VarLossTotal">
+          <DataField>VarLossTotal</DataField>
+        </Field>
+        <Field Name="VarLossTotalFormat">
+          <DataField>VarLossTotalFormat</DataField>
+        </Field>
+        <Field Name="VarLossReqProvision">
+          <DataField>VarLossReqProvision</DataField>
+        </Field>
+        <Field Name="VarLossReqProvisionFormat">
+          <DataField>VarLossReqProvisionFormat</DataField>
+        </Field>
+        <Field Name="VarLossProvisionPercenatage">
+          <DataField>VarLossProvisionPercenatage</DataField>
+        </Field>
+        <Field Name="VarLossProvisionPercenatageFormat">
+          <DataField>VarLossProvisionPercenatageFormat</DataField>
+        </Field>
+        <Field Name="VarPerformingCountResheduled">
+          <DataField>VarPerformingCountResheduled</DataField>
+        </Field>
+        <Field Name="VarPerformingTotalResheduled">
+          <DataField>VarPerformingTotalResheduled</DataField>
+        </Field>
+        <Field Name="VarPerformingTotalResheduledFormat">
+          <DataField>VarPerformingTotalResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarPerformingReqProvisionResheduled">
+          <DataField>VarPerformingReqProvisionResheduled</DataField>
+        </Field>
+        <Field Name="VarPerformingReqProvisionResheduledFormat">
+          <DataField>VarPerformingReqProvisionResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarPerformimgProvisionPercentageResheduled">
+          <DataField>VarPerformimgProvisionPercentageResheduled</DataField>
+        </Field>
+        <Field Name="VarPerformimgProvisionPercentageResheduledFormat">
+          <DataField>VarPerformimgProvisionPercentageResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarWatchCountResheduled">
+          <DataField>VarWatchCountResheduled</DataField>
+        </Field>
+        <Field Name="VarWatchTotalResheduled">
+          <DataField>VarWatchTotalResheduled</DataField>
+        </Field>
+        <Field Name="VarWatchTotalResheduledFormat">
+          <DataField>VarWatchTotalResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarWatchReqProvisionResheduled">
+          <DataField>VarWatchReqProvisionResheduled</DataField>
+        </Field>
+        <Field Name="VarWatchReqProvisionResheduledFormat">
+          <DataField>VarWatchReqProvisionResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarWatchProvisionPercentageResheduled">
+          <DataField>VarWatchProvisionPercentageResheduled</DataField>
+        </Field>
+        <Field Name="VarWatchProvisionPercentageResheduledFormat">
+          <DataField>VarWatchProvisionPercentageResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarSubstandardCountResheduled">
+          <DataField>VarSubstandardCountResheduled</DataField>
+        </Field>
+        <Field Name="VarSubstandardTotalResheduled">
+          <DataField>VarSubstandardTotalResheduled</DataField>
+        </Field>
+        <Field Name="VarSubstandardTotalResheduledFormat">
+          <DataField>VarSubstandardTotalResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarSubstandardReqProvisionResheduled">
+          <DataField>VarSubstandardReqProvisionResheduled</DataField>
+        </Field>
+        <Field Name="VarSubstandardReqProvisionResheduledFormat">
+          <DataField>VarSubstandardReqProvisionResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarSubstandardReqProvision">
+          <DataField>VarSubstandardReqProvision</DataField>
+        </Field>
+        <Field Name="VarSubstandardReqProvisionFormat">
+          <DataField>VarSubstandardReqProvisionFormat</DataField>
+        </Field>
+        <Field Name="VarSubstandardProvisionPercantageResheduled">
+          <DataField>VarSubstandardProvisionPercantageResheduled</DataField>
+        </Field>
+        <Field Name="VarSubstandardProvisionPercantageResheduledFormat">
+          <DataField>VarSubstandardProvisionPercantageResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarDoubtfulCountResheduled">
+          <DataField>VarDoubtfulCountResheduled</DataField>
+        </Field>
+        <Field Name="VarDoubtfulTotalResheduled">
+          <DataField>VarDoubtfulTotalResheduled</DataField>
+        </Field>
+        <Field Name="VarDoubtfulTotalResheduledFormat">
+          <DataField>VarDoubtfulTotalResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarDoubtfulReqProvisionResheduled">
+          <DataField>VarDoubtfulReqProvisionResheduled</DataField>
+        </Field>
+        <Field Name="VarDoubtfulReqProvisionResheduledFormat">
+          <DataField>VarDoubtfulReqProvisionResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarDoubtfulProvisionPercentageResheduled">
+          <DataField>VarDoubtfulProvisionPercentageResheduled</DataField>
+        </Field>
+        <Field Name="VarDoubtfulProvisionPercentageResheduledFormat">
+          <DataField>VarDoubtfulProvisionPercentageResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarLossCountResheduled">
+          <DataField>VarLossCountResheduled</DataField>
+        </Field>
+        <Field Name="VarLossTotalResheduled">
+          <DataField>VarLossTotalResheduled</DataField>
+        </Field>
+        <Field Name="VarLossTotalResheduledFormat">
+          <DataField>VarLossTotalResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarLossReqProvisionResheduled">
+          <DataField>VarLossReqProvisionResheduled</DataField>
+        </Field>
+        <Field Name="VarLossReqProvisionResheduledFormat">
+          <DataField>VarLossReqProvisionResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarLossProvisionPercenatageResheduled">
+          <DataField>VarLossProvisionPercenatageResheduled</DataField>
+        </Field>
+        <Field Name="VarLossProvisionPercenatageResheduledFormat">
+          <DataField>VarLossProvisionPercenatageResheduledFormat</DataField>
+        </Field>
+        <Field Name="VarReportDate">
+          <DataField>VarReportDate</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
