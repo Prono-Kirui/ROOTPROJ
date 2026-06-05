@@ -1,0 +1,41 @@
+{
+  "id": "db096af5-6956-429b-af5f-3d02f1f155d8",
+  "name": "Finance Management",
+  "publisher": "JM@Micropoint",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+  
+   "id": "c9e391e0-3547-4cc5-bb9a-87842b44aa9a",
+  "name": "BOSA Management",
+  "publisher": "Micropoint",
+  "version": "1.0.0.1"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 51000,
+      "to": 51999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+
+}
